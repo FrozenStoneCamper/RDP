@@ -1,6 +1,3 @@
-$sslProtocol = [System.Net.SecurityProtocolType]"SSL3"
-[System.Net.ServicePointManager]::SecurityProtocol = $sslProtocol
-
 name: CI
 
 on: [push, workflow_dispatch]
